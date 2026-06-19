@@ -159,6 +159,19 @@ td {
     word-break: break-word;         /* Couper les mots s'ils sont trop longs */
 }
 
+.field-markdown > :first-child {
+    margin-top: 0;
+}
+
+.field-markdown > :last-child {
+    margin-bottom: 0;
+}
+
+.field-markdown ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 /*  Wrapper */
 .table .data-wrapper {
     white-space: normal !important; /* Autorise le retour à la ligne */

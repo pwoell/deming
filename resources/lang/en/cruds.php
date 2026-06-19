@@ -141,8 +141,9 @@ return [
              'periodicity' => 'Periodicity',
              'input' => 'Input',
          ],
-         'show' => 'Control',
-         'index' => 'Control list',
+        'show' => 'Control',
+        'plan_table' => 'Assessment schedule',
+        'index' => 'Control list',
          'create' => 'Add a control',
          'edit' => 'Edit a control',
          'plan' => 'Measurement planning'

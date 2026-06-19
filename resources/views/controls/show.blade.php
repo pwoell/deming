@@ -23,7 +23,7 @@
 
     	<div class="row">
     		<div class="cell-lg-1 cell-md-2">
-        		<strong>{{ trans('cruds.control.fields.clause') }}</strong> - <strong>{{ trans('cruds.control.fields.name') }}</strong>
+        		<strong>{{ trans('cruds.control.fields.clause') }}</strong>
         	</div>
             <div class="cell-lg-7 cell-md-9">
     			{{ $control->clause }} - {{ $control->name }}
@@ -35,7 +35,9 @@
         		<strong>{{ trans('cruds.control.fields.objective') }}</strong>
         	</div>
             <div class="cell-lg-7 cell-md-9">
+                <div class="field-markdown">
                 {!! \Parsedown::instance()->text($control->objective) !!}
+                </div>
     		</div>
         </div>
 
@@ -55,7 +57,9 @@
         		<strong>{{ trans('cruds.control.fields.input') }}</strong>
         	</div>
             <div class="cell-lg-7 cell-md-9">
+                <div class="field-markdown">
                 {!! \Parsedown::instance()->text($control->input) !!}
+                </div>
     		</div>
         </div>
 
@@ -83,7 +87,9 @@
         		<strong>{{ trans('cruds.control.fields.action_plan') }}</strong>
         	</div>
     		<div class="cell-lg-6 cell-md-9">
+                <div class="field-markdown">
                 {!! \Parsedown::instance()->text($control->action_plan) !!}
+                </div>
     		</div>
         </div>
 
@@ -143,7 +149,7 @@
 <div>
     <br>
 </div>
-    <div data-role="panel" data-title-caption="{{ trans('cruds.measure.title') }}" data-collapsible="false" data-title-icon="<span class='mif-paste'></span>">
+    <div data-role="panel" data-title-caption="{{ trans('cruds.control.plan_table') }}" data-collapsible="false" data-title-icon="<span class='mif-paste'></span>">
 
         <div>
             <table id="controls" class="table striped row-hover cell-border"

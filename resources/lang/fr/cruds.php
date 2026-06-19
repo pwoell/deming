@@ -138,6 +138,7 @@ return [
             'periodicity' => 'Périodicité',
         ],
         'show' => 'Mesure de sécurité',
+        'plan_table' => 'Planning des contrôles',
         'index' => 'Liste des mesures de sécurité',
         'create' => 'Ajouter une mesure de sécurité',
         'edit' => 'Modifier une mesure de sécurité',
