@@ -25,3 +25,12 @@ Thumbs.db
 *.log
 *.sql
 *.sqlite
+
+# Vite-Build-Artefakte (werden mit "npm run build" automatisch erzeugt)
+/public/build
+
+# Laravel-Cache-Dateien ignorieren
+/bootstrap/cache/*
+
+# Ausnahme: Platzhalterdatei behalten, damit der Ordner im Repository existiert
+!/bootstrap/cache/.gitignore
